@@ -7,7 +7,7 @@
 
 <script>
 export default {
-  name: 'MainPage',
+  name: 'LoginPage',
   props: {
     msg: String
   }
