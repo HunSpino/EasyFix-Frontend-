@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import MainPage from './components/LoginPage.vue'
+import LoginPage from './components/LoginPage.vue'
 
 export default {
   name: 'App',
