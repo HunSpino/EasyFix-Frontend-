@@ -1,17 +1,10 @@
 <template>
-    <div>
-      <ul class="nav">
-  <li class="nav-item">
-    <a class="nav-link active" aria-current="page" href="#">Főoldal</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Gépek</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Hibajelentések</a>
-  </li>
-</ul>
+  <div class="card">
+    <div class="card-body">
+      <a href="#" class="btn btn-primary">Gép lista</a>
     </div>
+  </div>
+    
 </template>
 
 <script>
@@ -23,5 +16,8 @@ export default {
 </script>
 
 <style>
+.card{
+  width: 18rem;
+}
 
 </style>
