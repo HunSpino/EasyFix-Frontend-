@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <LoginPage/>
+    <img alt="EF logo" src="./assets/ef_logo.png">
+    <IndexPage/>
   </div>
 </template>
 
 <script>
-import LoginPage from './components/LoginPage.vue'
+import IndexPage from './components/IndexPage.vue'
 
 export default {
   name: 'App',
   components: {
-    LoginPage
+    IndexPage
   }
 }
 </script>
