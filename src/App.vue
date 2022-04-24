@@ -1,17 +1,28 @@
 <template>
   <div id="app">
-    <img alt="EF logo" src="./assets/ef_logo.png">
-    <IndexPage/>
+    <header>
+      <img alt="EF logo" src="./assets/ef_logo.png">
+      <h1>Üdvözöllek az EasyFix vendégoldalán</h1>
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link" href="http://127.0.0.1:8000/login">Bejelentkezés</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="http://127.0.0.1:8000/register">Regisztráció</a>
+        </li>
+      </ul>
+    </header>
+    <GepekList/>
   </div>
 </template>
 
 <script>
-import IndexPage from './components/IndexPage.vue'
+import GepekList from './components/GepekList.vue'
 
 export default {
   name: 'App',
   components: {
-    IndexPage
+    GepekList
   }
 }
 </script>
