@@ -1,27 +1,20 @@
-# easy-fix
+# EasyFix
 
-## Project setup
+#Szükséges backend
+https://github.com/HunSpino/EasyFix-Backend-
+Az abban a repóban lévő README.MD utasítások mégrehajtása után folytasd ezt a setup utasításokat
+
+## Setup
+A konzolba írd be eme parancsot az előkészülethez
+
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+Majd ha minden jól ment, indítsd el a fejlesztői szervert
+
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-
-### Full documentation
-See [Documentation](https://cli.vuejs.org).
+Emlékeztető: A Backend-nek funia kell ahhoz hohy a frontend működjön
