@@ -1,6 +1,6 @@
 # EasyFix
 
-#Szükséges backend
+## Szükséges backend
 https://github.com/HunSpino/EasyFix-Backend-
 Az abban a repóban lévő README.MD utasítások mégrehajtása után folytasd ezt a setup utasításokat
 
